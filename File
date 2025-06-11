@@ -10518,3 +10518,4 @@ UnloadScript = function()
 end
 --Check gamepass
 LocPL.Gamepass = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(LocalPlayer.UserId, 96651) or game:GetService("MarketplaceService"):UserOwnsGamePassAsync(LocalPlayer.UserId, 643697197)
+repeat wait(1) until not game
